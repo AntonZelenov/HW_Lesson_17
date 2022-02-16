@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "lato";
+  src: url("../../fonts/lato-regular-webfont.woff2") format("woff2"), url("../../fonts/lato-regular-webfont.woff") format("woff"), url("../../fonts/lato-regular-webfont.ttf") format("truetype"), url("../../fonts/lato-regular-webfont.svg#latoregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../../fonts/RedHatDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
+h1,
+h2 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.container {
+  max-width: 1150px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.paragraph__title {
+  margin-bottom: 40px;
+}
+
+.image {
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .image {
+    margin-bottom: 56px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .image {
+    margin-bottom: 48px;
+  }
+}
+.image img {
+  width: 100%;
+}
+
+.paragraph__text {
+  margin-bottom: 128px;
+}
+@media only screen and (max-width: 768px) {
+  .paragraph__text {
+    margin-bottom: 56px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .paragraph__text {
+    margin-bottom: 64px;
+  }
+}
+.paragraph__text-first {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.intro__logo {
+  display: block;
+  padding-top: 73px;
+  margin-bottom: 48px;
+}
+@media only screen and (max-width: 768px) {
+  .intro__logo {
+    padding-top: 112px;
+    margin-bottom: 39px;
+  }
+}
+.intro__logo a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5em;
+  color: #000000;
+}
+.intro__title {
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  margin-bottom: 64px;
+}
+@media only screen and (max-width: 768px) {
+  .intro__title {
+    margin-bottom: 52px;
+    font-size: 33px;
+    line-height: 50px;
+  }
+}
+.intro .paragraph__title {
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .intro .paragraph__title {
+    width: 100%;
+    padding-top: 0;
+    margin-bottom: 16px;
+  }
+}
+.intro .paragraph__text {
+  width: 50%;
+  margin-bottom: 211px;
+}
+@media only screen and (max-width: 768px) {
+  .intro .paragraph__text {
+    width: 100%;
+    margin-bottom: 81px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .intro .paragraph__text {
+    width: 100%;
+    margin-bottom: 65px;
+  }
+}
+.intro .image {
+  margin-bottom: 130px;
+}
+@media only screen and (max-width: 768px) {
+  .intro .image {
+    margin-bottom: 56px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .intro .image {
+    margin-bottom: 48px;
+  }
+}
+
+.user-research .paragraph__title {
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .user-research .paragraph__title {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .user-research .paragraph__title {
+    margin-bottom: 32px;
+  }
+}
+
+.final-design .paragraph__text {
+  margin-bottom: 170px;
+}
+@media only screen and (max-width: 768px) {
+  .final-design .paragraph__text {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .final-design .paragraph__text {
+    margin-bottom: 69px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
